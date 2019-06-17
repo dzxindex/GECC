@@ -15,6 +15,5 @@ import "C"
 import "unsafe"
 
 func CreateThread(p []byte) {
-	len := len(p)
-	C.sayHi((*C.int)((unsafe.Pointer)(&p[0])), (C.int)(len))
+	C.sayHi((*C.int)((unsafe.Pointer)(&p[0])), (C.int)(len(p)))
 }
