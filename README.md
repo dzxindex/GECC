@@ -10,5 +10,9 @@ Go External C2 Client implementation for cobalt strike.
 https://github.com/microsoft/go-winio  
 https://github.com/ryhanson/ExternalC2/tree/master/go-external-c2
 
-implement `External C2` by golang. Very simple reverse tcp. JUST FOR STUDY!
+Implement `External C2` by golang. Very simple reverse tcp. JUST FOR STUDY!
 Before using, modify the address(8.8.8.8:2222) in function `main` in main.go to your External C2 address.
+
+Thanks for the following projects:
+https://github.com/microsoft/go-winio  
+https://github.com/ryhanson/ExternalC2/tree/master/go-external-c2
