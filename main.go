@@ -9,8 +9,10 @@ import (
 	"runtime"
 	"time"
 
-	"./invokedll"
+	"GECC/invokedll"
 	. "github.com/microsoft/go-winio"
+
+
 )
 
 var pipeName = `foobar`
